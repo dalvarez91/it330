@@ -28,11 +28,7 @@ namespace DansHardwareStore
         {
             int retval = 0;
 
-
-
             Datamgmt datamgmt = new Datamgmt();
-
-
 
             string[] strinput = new string[9];
 
@@ -60,7 +56,7 @@ namespace DansHardwareStore
 
 
 
-            retval = appcomp.showData(strinput, nbrinput);
+            retval = datamgmt.showData(strinput, nbrinput);
         }
     }
 }

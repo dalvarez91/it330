@@ -24,29 +24,28 @@ namespace DansHardwareStore
             InitializeComponent();
         }
 
-        private void button2_click(object sender, RoutedEventArgs e)
-        {
        
-                int retval = 0;
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            int retval = 0;
 
-                Datamgmt datamgmt = new Datamgmt();
+            Datamgmt datamgmt = new Datamgmt();
 
-                string[] strinput = new string[7];
-                int nbrinput = 0;
+            string[] strinput = new string[7];
+            int nbrinput = 0;
 
-                strinput[0] = txtServiceID.Text;
-                strinput[1] = txtCustomerID.Text;
-                strinput[2] = txtFirstName.Text;
-                strinput[3] = txtLastName.Text;
-                strinput[4] = txtServiceDesc.Text;
-                strinput[5] = txtDate.Text;
-                strinput[6] = txtServicePrice.Text;
+            strinput[0] = txtServiceID.Text;
+            strinput[1] = txtCustomerID.Text;
+            strinput[2] = txtFirstName.Text;
+            strinput[3] = txtLastName.Text;
+            strinput[4] = txtServiceDesc.Text;
+            strinput[5] = txtDate.Text;
+            strinput[6] = txtServicePrice.Text;
 
 
-                nbrinput = 7;
+            nbrinput = 7;
 
-                retval = datamgmt.showData(strinput, nbrinput);
-            
+            retval = datamgmt.showData(strinput, nbrinput);
         }
     }
 }

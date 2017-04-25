@@ -24,39 +24,34 @@ namespace DansHardwareStore
         {
             InitializeComponent();
         }
-
-        
-        
-
-
-
-
-
-        private void button_click (object sender, RoutedEventArgs e)
+      
+          private void AddSupplier_Click(object sender, RoutedEventArgs e)
         {
-            AdminUser adminuser = new AdminUser();
-            adminuser.Show();
+            AddSupplier addsupplier = new AddSupplier();
+            addsupplier.Show();
         }
 
-        private void button1_click (object sender, RoutedEventArgs e)
+        private void btnAddEmployee_Click(object sender, RoutedEventArgs e)
         {
             AddEmployee addemployee = new AddEmployee();
             addemployee.Show();
         }
 
-        private void button2_click (object sender, RoutedEventArgs e)
+       
+
+        private void btnAddService_Click(object sender, RoutedEventArgs e)
         {
-            Services services = new Services();
-            services.Show();
+            Services addservice = new Services();
+            addservice.Show();
         }
 
-        private void button3_click (object sender, RoutedEventArgs e)
+        private void btnAddPromos_Click(object sender, RoutedEventArgs e)
         {
             AddPromos addpromos = new AddPromos();
             addpromos.Show();
         }
 
-        private void button4_click (object sender, RoutedEventArgs e)
+        private void btnAddItem_Click(object sender, RoutedEventArgs e)
         {
             ManageItem additem = new ManageItem();
             additem.Show();

@@ -19,7 +19,6 @@ C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardw
 C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardwareStore\obj\Debug\Services.g.cs
 C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardwareStore\obj\Debug\Services.baml
 C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardwareStore\obj\Debug\AddPromos.g.cs
-C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardwareStore\obj\Debug\AdminUser.g.cs
 C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardwareStore\obj\Debug\AddPromos.baml
-C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardwareStore\obj\Debug\AdminUser.baml
 C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardwareStore\obj\Debug\AddSupplier.g.cs
+C:\Users\Admin\documents\visual studio 2017\Projects\DansHardwareStore\DansHardwareStore\obj\Debug\AddSupplier.baml

@@ -8,12 +8,12 @@
         Title="Dan's Hardware Store Website Administration" Height="350" Width="525" Background="#FFCFCFA7">
     <Grid>
         <Label x:Name="lblMainbanner" Content="Dan's Hardware Store" HorizontalAlignment="Left" VerticalAlignment="Top" Width="145" Margin="197,25,0,0" RenderTransformOrigin="0.458,0.64"/>
-        <Button x:Name="AddSupplier" Content="Add Supplier" HorizontalAlignment="Left" Margin="197,56,0,0" VerticalAlignment="Top" Width="130" Click="button_Click"/>
-        <Button x:Name="btnAddEmployee" Content="Add Employee" HorizontalAlignment="Left" Margin="197,91,0,0" VerticalAlignment="Top" Width="131" Click="button1_Click"/>
-        <Button x:Name="btnAddService" Content="Add Service" HorizontalAlignment="Left" Margin="197,125,0,0" VerticalAlignment="Top" Width="130" Click="button2_click"/>
-        <Button x:Name="btnAddPromos" Content="Add Promos" HorizontalAlignment="Left" Margin="197,162,0,0" VerticalAlignment="Top" Width="129" Click="buttton3_click"/>
+        <Button x:Name="AddSupplier" Content="Add Supplier" HorizontalAlignment="Left" Margin="197,56,0,0" VerticalAlignment="Top" Width="130" Click="AddSupplier_Click"/>
+        <Button x:Name="btnAddEmployee" Content="Add Employee" HorizontalAlignment="Left" Margin="197,91,0,0" VerticalAlignment="Top" Width="131" Click="btnAddEmployee_Click"/>
+        <Button x:Name="btnAddService" Content="Add Service" HorizontalAlignment="Left" Margin="197,125,0,0" VerticalAlignment="Top" Width="130" Click="btnAddService_Click"/>
+        <Button x:Name="btnAddPromos" Content="Add Promos" HorizontalAlignment="Left" Margin="197,162,0,0" VerticalAlignment="Top" Width="129" Click="btnAddPromos_Click"/>
         <Image x:Name="imgGears" Margin="13,55,335,99" Source="Gears.PNG" Stretch="Fill"/>
-        <Button x:Name="btnAddItem" Content="Add Item" HorizontalAlignment="Left" Margin="197,199,0,0" VerticalAlignment="Top" Width="127" Click="button4_click"/>
+        <Button x:Name="btnAddItem" Content="Add Item" HorizontalAlignment="Left" Margin="197,199,0,0" VerticalAlignment="Top" Width="127" Click="btnAddItem_Click"/>
 
 
     </Grid>
