@@ -1,0 +1,84 @@
+﻿<Window x:Class="DansHardwareStore.AddSupplier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DansHardwareStore"
+        mc:Ignorable="d"
+        Title="AddSupplier" Height="581.776" Width="435.981">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="111*"/>
+
+            <ColumnDefinition Width="337*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="21*"/>
+
+            <RowDefinition Height="43*"/>
+
+            <RowDefinition Height="56*"/>
+
+            <RowDefinition Height="70*"/>
+
+            <RowDefinition Height="70*"/>
+
+            <RowDefinition Height="52*"/>
+
+            <RowDefinition Height="40*"/>
+
+            <RowDefinition Height="42*"/>
+
+            <RowDefinition Height="37*"/>
+
+            <RowDefinition Height="39*"/>
+
+            <RowDefinition Height="54*"/>
+
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="txtSupID" HorizontalAlignment="Left" Height="23" Margin="18,2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" Grid.Column="1" Grid.Row="1"/>
+
+        <TextBox x:Name="txtCompany" HorizontalAlignment="Left" Height="23" Margin="18,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Grid.Column="1" Grid.Row="2"/>
+
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="18,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Grid.Column="1" Grid.Row="3"/>
+
+        <TextBox x:Name="txtPhone1" HorizontalAlignment="Left" Height="23" Margin="18,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Grid.Column="1" Grid.Row="4"/>
+
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="23" Margin="18,2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Grid.Column="1" Grid.Row="5"/>
+
+        <Label x:Name="label" Content="Supplier ID" HorizontalAlignment="Left" Height="24" Margin="27,2,0,0" VerticalAlignment="Top" Width="79" Grid.Row="1"/>
+
+        <Label x:Name="label1" Content="Company" HorizontalAlignment="Left" Height="30" Margin="27,0,0,0" VerticalAlignment="Top" Width="74" Grid.Row="2"/>
+
+        <Label x:Name="label2" Content="Email" HorizontalAlignment="Left" Height="23" Margin="27,9,0,0" VerticalAlignment="Top" Width="79" Grid.Row="3"/>
+
+        <Label x:Name="label3" Content="Phone" HorizontalAlignment="Left" Height="23" Margin="27,10,0,0" VerticalAlignment="Top" Width="74" Grid.Row="4"/>
+
+        <Label x:Name="label4" Content="Address" HorizontalAlignment="Left" Height="23" Margin="27,4,0,0" VerticalAlignment="Top" Width="79" Grid.Row="5"/>
+
+        <TextBox x:Name="txtCity" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="18,10,0,0" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+
+        <TextBox x:Name="txtState" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="18,6,0,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+
+        <Label Content="City" HorizontalAlignment="Left" Margin="27,7,0,0" Grid.Row="6" VerticalAlignment="Top"/>
+
+        <Label Content="State" HorizontalAlignment="Left" Margin="27,4,0,0" Grid.Row="7" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="txtZip" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="18,8,0,0" Grid.Row="8" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+
+        <Label Content="Zip&#xD;&#xA;" HorizontalAlignment="Left" Margin="27,5,0,0" Grid.Row="8" VerticalAlignment="Top" Height="26"/>
+
+        <TextBox x:Name="txtCreated" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="18,10,0,0" Grid.Row="9" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+
+        <Label Content="Created at" HorizontalAlignment="Left" Margin="27,7,0,0" Grid.Row="9" VerticalAlignment="Top"/>
+
+        <Button x:Name="saveSupplier" Content="Save" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="18,8.587,0,0" Grid.Row="10" VerticalAlignment="Top" Width="99" Click="saveSupplier_Click"/>
+
+    </Grid>
+</Window>
