@@ -24,7 +24,9 @@ namespace DansHardwareStore
             InitializeComponent();
         }
 
-        private void button4_click(object sender, RoutedEventArgs e)
+        
+
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
             int retval = 0;
 

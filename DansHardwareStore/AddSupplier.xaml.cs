@@ -30,7 +30,7 @@ namespace DansHardwareStore
 
 
 
-            AppCompute appcomp = new AppCompute();
+            Datamgmt datamgmt = new Datamgmt();
 
 
 
