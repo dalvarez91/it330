@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Daniel Alvarez
+//IT330 Assignment #3
+//04/25/17
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

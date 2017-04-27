@@ -30,7 +30,7 @@ namespace DansHardwareStore
 
             Datamgmt datamgmt = new Datamgmt();
 
-            string[] strinput = new string[9];
+            string[] strinput = new string[8];
 
             int nbrinput = 0;
 
@@ -50,9 +50,7 @@ namespace DansHardwareStore
 
             strinput[7] = txtZip.Text;
 
-            strinput[8] = txtCreated.Text;
-
-            nbrinput = 9;
+            nbrinput = 8;
 
 
 

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DansHardwareStore"
         mc:Ignorable="d"
-        Title="AddSupplier" Height="581.776" Width="435.981">
+        Title="AddSupplier" Height="581.776" Width="435.981" Background="#FFCFCFA7">
     <Grid>
 
         <Grid.ColumnDefinitions>
@@ -74,11 +74,7 @@
 
         <Label Content="Zip&#xD;&#xA;" HorizontalAlignment="Left" Margin="27,5,0,0" Grid.Row="8" VerticalAlignment="Top" Height="26"/>
 
-        <TextBox x:Name="txtCreated" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="18,10,0,0" Grid.Row="9" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-
-        <Label Content="Created at" HorizontalAlignment="Left" Margin="27,7,0,0" Grid.Row="9" VerticalAlignment="Top"/>
-
-        <Button x:Name="saveSupplier" Content="Save" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="18,8.587,0,0" Grid.Row="10" VerticalAlignment="Top" Width="99" Click="saveSupplier_Click"/>
+        <Button x:Name="saveSupplier" Content="Submit" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="18,8.587,0,0" Grid.Row="10" VerticalAlignment="Top" Width="99" Click="saveSupplier_Click"/>
 
     </Grid>
 </Window>
